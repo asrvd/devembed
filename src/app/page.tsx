@@ -68,7 +68,7 @@ export default function Home() {
           </div>
           <div className="w-full overflow-x-scroll overflow-y-scroll lg:overflow-hidden h-[800px] rounded-lg shadow-xl bg-zinc-100/50 flex flex-col justify-center items-center">
             <iframe
-              src={`http://localhost:3000/widget/panel/${slug}`}
+              src={`https://devembed.asrvd.me/widget/panel/${slug}`}
               className="flex flex-col justify-center items-center w-[500px] h-[600px] rounded-lg max-h-auto scrollbar-thin shadow-xl scrollbar-track-transparent scrollbar-thumb-zinc-500"
             ></iframe>
             <button
@@ -102,8 +102,8 @@ export default function Home() {
       </main>
       <Script
         // strategy="afterInteractive"
-        src="http://localhost:3000/scripts/embed.min.js"
-        data-username="ben"
+        src="https://devembed.asrvd.me/scripts/embed.min.js"
+        data-username="asheeshh"
         async
       />
     </>
